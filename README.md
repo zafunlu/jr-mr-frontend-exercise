@@ -5,11 +5,12 @@
 ### Returning the finished exercise
 
 We would like to get the assignment back from you 48 hours before the second interview. We prefer to receive it via email to the address you have from the recruiter:
-* Use a file transfer service like wetransfer or Google Drive, store the assignment and share the location with us
+
+- Use a file transfer service like wetransfer or Google Drive, store the assignment and share the location with us
 
 ### Goal
 
-The goal of this assignment is to convert the provided designs below to a working frontend using HTML, CSS and JS. Please refrain from using react, if you really need to you can, but please build the main requested UI elements (FAQ and modal) yourself. 
+The goal of this assignment is to convert the provided designs below to a working frontend using HTML, CSS and JS. Please refrain from using react, if you really need to you can, but please build the main requested UI elements (FAQ and modal) yourself.
 
 - [Homepage - Desktop](designs/Red%20Alert%20-%20Homepage%20-%20Desktop.png)
 - [Homepage - Mobile](designs/Red%20Alert%20-%20Homepage%20-%20Mobile.png)
@@ -18,34 +19,35 @@ The goal of this assignment is to convert the provided designs below to a workin
 
 ### Scope
 
-- [ ] Responsive design
-- [ ] Accessible
-- [ ] Being able to open and close the FAQ items
-- [ ] Only one FAQ item is allowed to be open
-- [ ] Being able to open and close the modal box
-- [ ] Compatible with latest Chrome and Firefox versions 
+- [x] Responsive design
+- [x] Accessible
+- [x] Being able to open and close the FAQ items
+- [x] Only one FAQ item is allowed to be open
+- [x] Being able to open and close the modal box
+- [x] Compatible with latest Chrome and Firefox versions
 
 ## Design specifics
 
 - Colors used:
-    - Dark grey: `#2B2D42`
-    - Grey: `#8D99AE`
-    - Light grey: `#EDF2F4`
-    - Dark red: `#7F1028`
-    - Light red: `#AD646D`
-    - White: `#FFFFFF` 
+  - Dark grey: `#2B2D42`
+  - Grey: `#8D99AE`
+  - Light grey: `#EDF2F4`
+  - Dark red: `#7F1028`
+  - Light red: `#AD646D`
+  - White: `#FFFFFF`
 - Font used is `Helvetica`
 - Static assets
-    - [Product image 1 png](./public/assets/images/product-1-transparent.png)
-    - [Product image 1 webp](./public/assets/images/product-1-transparent.webp)
-    - [Product image 2 png](./public/assets/images/product-2-transparent.png)
-    - [Product image 2 webp](./public/assets/images/product-2-transparent.webp)
+  - [Product image 1 png](./public/assets/images/product-1-transparent.png)
+  - [Product image 1 webp](./public/assets/images/product-1-transparent.webp)
+  - [Product image 2 png](./public/assets/images/product-2-transparent.png)
+  - [Product image 2 webp](./public/assets/images/product-2-transparent.webp)
 
 ## Usage
 
 ### Global dependencies
 
 Make sure you have Node 14 installed. The project supports nvm:
+
 - [Node.js](https://nodejs.org/)
 - [nvm](https://github.com/nvm-sh/nvm)
 
@@ -79,7 +81,7 @@ All the `designs, icons and images` needed to implement the designs are added to
 
 ## Stack
 
-The boilerplate consists of following tech stack and should run out of the box with a basic setup - 
+The boilerplate consists of following tech stack and should run out of the box with a basic setup -
 
 - Webpack
 - Sass compilation (and minification/autoprefixing in production)
