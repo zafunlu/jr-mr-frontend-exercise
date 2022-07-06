@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title></title>
     <link rel="stylesheet" href="./assets/styles/main.css" />
   </head>
@@ -12,46 +13,128 @@
     </div>
 
     <div class="hero">
-      <div class="hero__title">
-        <h1>Protect your home</h1>
-        <h2>for a criminally low price</h2>
+      <div class="hero__left">
+        <img
+          src="/public/assets/images/product-2-transparent.png"
+          alt=""
+          class="hero__img"
+        />
       </div>
-      <div class="hero__buttons">
-        <div class="btn">Get started for € 59,99</div>
-        <div class="btn btn--dark">More information</div>
+      <div class="hero__center">
+        <div class="hero__title">
+          <h1>Protect your home</h1>
+          <h2>for a criminally low price</h2>
+        </div>
+        <img
+          src="/public/assets/images/product-2-transparent.webp"
+          alt=""
+          class="hero__center__img"
+        />
+        <div class="hero__buttons">
+          <div class="btn">Get started for € 59,99</div>
+          <div class="btn btn--dark" id="modal-open">More information</div>
+        </div>
+      </div>
+      <div class="hero__right">
+        <img
+          src="/public/assets/images/product-1-transparent.png"
+          alt=""
+          class="hero__img"
+        />
       </div>
     </div>
 
-    <div class="modal__wrapper">
-      <div class="modal">
+    <div class="modal" id="modal">
+      <div class="modal__content">
         <div class="modal__title">More information</div>
         <div class="modal__product">
-          <img src="#" alt="" class="modal__product__img" />
+          <img
+            src="/public//assets/images/product-2-transparent.webp"
+            alt=""
+            class="modal__product__img"
+          />
           <div class="modal__product__title">Warning Red Alert Basic</div>
           <div class="modal__product__desc">
             Contains 3 door sensors, 2 door locks, 1 alarm and 1 hub.
           </div>
           <div class="modal__product__price">€ 59,99</div>
         </div>
+        <div class="modal__divider"></div>
         <div class="modal__product">
-          <img src="#" alt="" class="modal__product__img" />
+          <img
+            src="/public/assets/images/product-1-transparent.webp"
+            alt=""
+            class="modal__product__img"
+          />
           <div class="modal__product__title">Warning Red Alert Premium</div>
           <div class="modal__product__desc">
             Contains everything Red Alert Basic has, plus a weather proof camera
           </div>
           <div class="modal__product__price">€ 109,99</div>
         </div>
-        <div class="btn">Close</div>
+        <div class="btn" id="modal-close">Close</div>
       </div>
     </div>
 
     <div class="faqs__wrapper">
-      <h4>Most asked questions</h4>
-
+      <div class="faqs__title">Most asked questions</div>
       <div class="faqs">
         <div class="faq">
-          <span class="faq__text">Lorem ipsum..</span>
-          <img class="faq__toggle" src="./assets/icons/toggle-faq.svg" />
+          <div class="faq__title">
+            How long does Red Alert stay active after enabling?
+            <img class="faq__toggle" src="./assets/icons/toggle-faq.svg" />
+          </div>
+          <div class="faq__text">
+            Once you enable Red Alert, it stays active until the moment you have
+            set during the initial setup of your Red Alert Home Alarm. By
+            default this is 08:00 in the morning.
+          </div>
+        </div>
+        <div class="faq">
+          <div class="faq__title">
+            When should I replace Red Alert?
+            <img class="faq__toggle" src="./assets/icons/toggle-faq.svg" />
+          </div>
+          <div class="faq__text">
+            Red Alert comes with a battery health overview, which shows you how
+            healthy Red Alert is. When the battery health drops below 35% it
+            will notify you via the display, advising you to either get a
+            maintenance check or to buy a new one.
+          </div>
+        </div>
+        <div class="faq">
+          <div class="faq__title">
+            What is the benefit of Red Alert compared to other home invasion
+            alarms?
+            <img class="faq__toggle" src="./assets/icons/toggle-faq.svg" />
+          </div>
+          <div class="faq__text">
+            The benefit is that Red Alert has been tested by the one and only
+            Macaulay Culkin (the actor from the Home Alone movies). Together, we
+            have tweaked and improved Red Alert till we got the best home
+            invasion alarm money can get you!
+          </div>
+        </div>
+        <div class="faq">
+          <div class="faq__title">
+            What guarantees does Red Alert give against burglary?
+            <img class="faq__toggle" src="./assets/icons/toggle-faq.svg" />
+          </div>
+          <div class="faq__text">
+            We give you our word. And friends don't lie to each other! We're
+            friends, right?
+          </div>
+        </div>
+        <div class="faq">
+          <div class="faq__title">
+            Why is Red Alert so cheap compared to competitors?
+            <img class="faq__toggle" src="./assets/icons/toggle-faq.svg" />
+          </div>
+          <div class="faq__text">
+            We use high-quality recycled plastic, gathered from the bottom of
+            the ocean. The plastic has been donated to us, which explains the
+            low cost. Cheap AND good for the environment? Sign me up!
+          </div>
         </div>
       </div>
     </div>
